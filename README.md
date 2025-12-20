@@ -1,6 +1,4 @@
-# LifeTag — Project Summary (Core Logic)
-
-This file highlights the main architecture and the core code paths so an engineer or AI agent can be quickly productive.
+# LifeTag 
 
 **Big Picture**
 - Backend: CSV-based lightweight datastore under `lifetag-prototype/backend/uploads/` (files: `medicine_stock.csv`, `prescriptions.csv`, `patients.csv`, `alerts.csv`, `sales.csv`). The Flask app is `lifetag-prototype/backend/app.py`. Business logic and CSV helpers live in `lifetag-prototype/backend/utils.py`.
